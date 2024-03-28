@@ -1,4 +1,8 @@
-﻿using Station.Interfaces;
+﻿// <copyright file="Navire.cs" company="GILABERT_Theo">
+// Copyright (c) GILABERT_Theo. All rights reserved.
+// </copyright>
+
+using Station.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;

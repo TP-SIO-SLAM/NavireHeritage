@@ -1,4 +1,8 @@
-﻿using System;
+﻿// <copyright file="Navire.cs" company="GILABERT_Theo">
+// Copyright (c) GILABERT_Theo. All rights reserved.
+// </copyright>
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -58,7 +62,7 @@ namespace NavireHeritage.classesMetier
                 if (EstAttendu(imo))
                 {
                     Navire unNavire = GetUnAttendu(imo) as Navire;
-                    if (unNavire is Croisière && this.GetNbCroisiereArrives() < this.nbQuaisPassager)
+                    if (unNavire is Croisiere && this.GetNbCroisiereArrives() < this.nbQuaisPassager)
                     {
                         this.AjoutNavireArrivee(GetUnAttendu(imo));
                     }
@@ -203,7 +207,7 @@ namespace NavireHeritage.classesMetier
             int nb = 0;
             foreach (Navire navire in this.navireArrives.Values)
             {
-                if (navire is Croisière)
+                if (navire is Croisiere)
                 {
                     nb++;
                 }

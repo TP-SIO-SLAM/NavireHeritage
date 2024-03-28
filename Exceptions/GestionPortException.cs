@@ -1,4 +1,8 @@
-﻿using System;
+﻿// <copyright file="Navire.cs" company="GILABERT_Theo">
+// Copyright (c) GILABERT_Theo. All rights reserved.
+// </copyright>
+
+using System;
 using System.Collections.Generic;
 using System.Text;
 
